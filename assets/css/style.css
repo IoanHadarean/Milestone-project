@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800|Exo: 100,200,300,400,500,600,700,800');
+
+header {
+    margin: 0;
+}
+
+body {
+     font-family: "Roboto", sans-serif;
+}
+
+
+/*-----------------------------------------------Colors*/
+
+.ui-menu-color-home {
+    background-color: #9f427780;
+}
+
+.ui-menu-color-images {
+    background-color: #42799f80;
+}
+
+.ui-menu-color-audioclips {
+    background-color: #2dbf2387;
+}
+
+.ui-menu-color-videoclip {
+    background-color: #a523bf87;
+}
+
+.ui-menu-color-contact {
+    background-color: #284c9e94;
+}
+
+
+/*-----------------------------------------------Navigation*/
+
+#nav {
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+#navbar {
+    padding: 0;
+    margin: 0;
+}
+
+.menuitem {
+    height: 60px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 60px;
+}
+
+.menuitem a i {
+    padding-top: 12px;
+    display: block;
+    color: #fafafa;
+    font-size: 14px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.5);
+    height: 60px;
+}
+
+.navbar-btn {
+    color: #000;
+    border: 0;
+    border-radius: 12px;
+    width: 80px;
+    align-items: center;
+}
+
+.btn-success:hover {
+    background-color: #18540a;
+    border-color: white;
+}
+
+.navbar-default .navbar-text {
+    color: #3197bf;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 50%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border-color: transparent;
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 800;;
+    color: #3197bf;
+}
+
+
+
+/*-----------------------------------------------Alert*/
+
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    margin-bottom: 0;
+    padding: 8px 60px;
+    border-radius: 0;
+    background-color: #f1d855a8;
+    border-color: #e4c20e;
+}
+
+
+/*-----------------------------------------------Section*/
+
+
+.callout-container {
+    height: 100vh;
+    
+    background: url("../images/nap.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+/*-----------------------------------------------Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 50px;
+    color: #3197bf;
+}
+
+.jumbotron small {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 800;
+    color: gray;
+}
+
+
+/*---------------------------------------------Buttons*/
+
+.btn--cta {
+    border-radius: 20px;
+    width: 120px;
+    color: black;
+}
+
+/*---------------------------------------------Block dividers*/
+
+.block-divider {
+    width: 100px;
+    height: 10px;
+    background-color: blue;
+    border: 0;
+}
+
+
+/*-----------------------------------------------Footer*/
+
+footer {
+    background-color: white;
+    color: #000000;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 20px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 8px;
+    text-align: center;
+    color: blue;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+#footer-details {
+    margin: 20px;
+}
+
+#footer-details .general-sub h4 p {
+    text-align: center;
+}
+
+#footer-details h5 {
+    margin-left: 100px;
+}
