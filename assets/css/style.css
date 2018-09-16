@@ -5,30 +5,30 @@ header {
 }
 
 body {
-     font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 
 /*-----------------------------------------------Colors*/
 
 .ui-menu-color-home {
-    background-color: #9f427780;
+    background-color: #9f4277cc;
 }
 
 .ui-menu-color-images {
-    background-color: #42799f80;
+    background-color: #42799fcc;
 }
 
 .ui-menu-color-audioclips {
-    background-color: #2dbf2387;
+    background-color: #2dbf23cc;
 }
 
 .ui-menu-color-videoclip {
-    background-color: #a523bf87;
+    background-color: #a523bfcc;
 }
 
 .ui-menu-color-contact {
-    background-color: #284c9e94;
+    background-color: #284c9ecc;
 }
 
 
@@ -44,7 +44,8 @@ body {
 }
 
 #navbar {
-    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0;
 }
 
@@ -80,6 +81,47 @@ body {
 }
 
 
+/*-----------------------------------------------Navbar*/
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-text {
+    color: white;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.5);
@@ -100,11 +142,13 @@ body {
 }
 
 .navbar-default .navbar-text {
-    color: #3197bf;
+    color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 50%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .navbar {
@@ -121,11 +165,16 @@ body {
 
 .navbar .navbar-brand {
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 800;;
-    color: #3197bf;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
+.navbar .navbar-brand:hover {
+    color: white;
+}
 
 
 /*-----------------------------------------------Alert*/
@@ -146,16 +195,15 @@ body {
 
 /*-----------------------------------------------Section*/
 
-
 .callout-container {
     height: 100vh;
-    
-    background: url("../images/nap.jpg") no-repeat center center fixed;
+
+    background: url("../images/dbfamily.png") no-repeat center center fixed ;
     background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    
+
     position: relative;
     display: flex;
     align-items: center;
@@ -166,12 +214,14 @@ body {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
+    margin: 0;
 }
 
 .row {
     margin-left: 0;
     margin-right: 0;
 }
+
 /*-----------------------------------------------Jumbotron*/
 
 .jumbotron {
@@ -183,14 +233,19 @@ body {
     font-weight: 500;
     font-style: italic;
     font-size: 50px;
-    color: #3197bf;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 .jumbotron small {
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
     font-weight: 800;
-    color: gray;
+    color: white;
+    border-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 
@@ -242,7 +297,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #footer-details {
@@ -256,3 +311,17 @@ footer {
 #footer-details h5 {
     margin-left: 100px;
 }
+
+/*-----------------------------------------------Video*/
+
+.video {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-box {
+    margin-top: 100px;
+}
+
