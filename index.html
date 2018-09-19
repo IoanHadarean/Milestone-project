@@ -61,8 +61,11 @@
                     </ul>
                 </div>
                 <div class="navbar-header navbar-right hidden-xs">
-                    <a href="/login" class="btn btn-default navbar-btn btn-success">Login</a>
+                    <a href="/login" class="btn btn-default navbar-btn btn-success" data-toggle='modal' data-target='#login-modal'>Login</a>
                     <p class="navbar-text"><i>Join the community</i></p>
+                </div>
+                <div class="navbar-header navbar-right hidden-sm hidden-md hidden-lg">
+                    <a href="/login" class="btn btn-default navbar-btn btn-success" data-toggle='modal' data-target='#login-modal'>Login</a>
                 </div>
             </div>
         </div>
@@ -76,11 +79,80 @@
                 <section class="callout jumbotron text-center">
                     <h2>The best anime community</h2>
                     <p class="text-muted"><small>There is no age for being a DragonBall fan</small></p>
-                    <p><button class="btn btn-lg btn--cta btn-success" data-toggle='modal' data-target='#signUpModal'>Login</button></p>
+                    <p><button class="btn btn-lg btn--cta btn-success" data-toggle='modal' data-target='#signUpModal'>Sign Up</button></p>
                 </section>
             </div>
         </div>
     </section>
+
+
+    <!-- Modal Sign Up-->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Sign up for DragonBallSeries</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                         <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input required type="text" class="form-control" id="firstname" placeholder="First Name">
+                        </div>
+                         <div class="form-group">
+                            <label for="lastname">Last Name</label>
+                            <input required type="text" class="form-control" id="lastname" placeholder="Last Name">
+                        </div>
+                         <div class="form-group">
+                            <label for="dateofbirth">Date Of Birth</label>
+                            <input required type="date" class="form-control" id="dateofbirth">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input required type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input required type="password" class="form-control" id="password" placeholder="Password">
+                             <p class="help-block">We'll never share your password with anyone</p>
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Login-->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel2">Login to DragonBallSeries</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email2">Email address</label>
+                            <input required type="email" class="form-control" id="email2" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password2">Password</label>
+                            <input required type="password" class="form-control" id="password2" placeholder="Password">
+                             <p class="help-block">We'll never share your password with anyone</p>
+                        </div>
+                        <button type="submit" class="btn btn-success">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <!-- Footer -->

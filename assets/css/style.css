@@ -17,24 +17,30 @@ body {
 /*-----------------------------------------------Colors*/
 
 .ui-menu-color-home {
-    background-color: #9f4277;
+    background-color: black;
 }
 
 .ui-menu-color-images {
-    background-color: #42799f;
+    background-color: black;
 }
 
 .ui-menu-color-audioclips {
-    background-color: #2dbf23;
+    background-color: black;
 }
 
 .ui-menu-color-videoclip {
-    background-color: #a523bf;
+    background-color: black;
 }
 
 .ui-menu-color-contact {
-    background-color: #284c9e;
+    background-color: black;
 }
+
+
+.nav-bg {
+    background: gray;
+}
+
 
 
 /*-----------------------------------------------Navigation*/
@@ -88,6 +94,11 @@ body {
 
 /*-----------------------------------------------Navbar*/
 
+.container-fluid>.navbar-header {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 .navbar-default .navbar-nav>li>a {
     color: white;
 }
@@ -133,18 +144,6 @@ body {
     height: 60px;
 }
 
-.navbar-btn {
-    color: #000;
-    border: 0;
-    border-radius: 12px;
-    width: 80px;
-    align-items: center;
-}
-
-.btn-success:hover {
-    background-color: #18540a;
-    border-color: white;
-}
 
 .navbar-header .navbar-text {
     color: white;
@@ -152,8 +151,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     border-radius: 50%;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
 }
 
 .navbar {
@@ -192,6 +189,8 @@ body {
 
 .navbar-header .navbar-text {
     color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .navbar-header .navbar-collapse {
@@ -226,9 +225,6 @@ body {
     color: white;
 }
 
-.blue-bg {
-    background: gray;
-}
 
 /*-----------------------------------------------Alert*/
 
@@ -299,17 +295,23 @@ body {
 
 .btn--cta {
     border-radius: 20px;
-    width: 120px;
+    width: 140px;
     color: black;
+    margin-top: 20px;
 }
 
-/*---------------------------------------------Block dividers*/
-
-.block-divider {
-    width: 100px;
-    height: 10px;
-    background-color: blue;
+.navbar-btn {
+    color: #000;
     border: 0;
+    border-radius: 12px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-success:hover {
+    background-color: #18540a;
+    border-color: white;
 }
 
 
@@ -365,6 +367,7 @@ footer {
 .video-box {
     width: 70%;
     height: 70%;
+    border: 10px solid black;
 }
 
 .video-heading {
@@ -395,12 +398,30 @@ footer {
     .menuitem {
         width: 14%;
     }
+    .navbar-header .navbar-white {
+        color: white;
+    }
 }
 
-@media (min-width: 1200) {
-     .image-1 {
+@media (min-width: 1200px) {
+    .row.col-lg-12 {
         display: flex;
         flex-direction: row-reverse;
+    }
+    .text-section .audio-1 .audio-box-1 {
+        height: 50vh;
+    }
+
+    .text-section .audio-2 .audio-box-2 {
+        height: 50vh;
+    }
+
+    .text-section .audio-3 .audio-box-3 {
+        height: 50vh;
+    }
+
+    .text-section .audio-4 .audio-box-4 {
+        height: 50vh;
     }
 }
 
@@ -413,46 +434,61 @@ footer {
     margin: 0px;
     height: 40px;
     border: 0;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
 }
 
-.image-bg {
-    background: blue;
+.header-bg {
+    background-color: white;
 }
 
 h3 {
+    border: 0;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 0;
 }
 
 .image-1 {
     height: 50vh;
-    background: url("../images/nap.jpg") no-repeat center;
+    background: url("../images/nap.jpg") no-repeat bottom fixed;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.white-bg {
-    background: pink;
-}
 
 .image-section {
-    padding: 0;
+    padding: 0px;
 }
 
 .text-section {
-    background: pink;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 360px;
 }
 
 .section-header {
-    margin-top: 0;
+    margin-top: 100px;
+}
+
+.text-section>p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 18px;
 }
 
 .image-2 {
     height: 50vh;
-    background: url("../images/vs.jpg") no-repeat center;
+    background: url("../images/Tofpower.jpeg") no-repeat center;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
@@ -472,4 +508,59 @@ h3 {
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+}
+
+.row.col-lg-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*-----------------------------------------------Songs*/
+
+.text-section .audio-1 .audio-box-1 {
+    background-attachment: fixed;
+    background: url("../images/Dragon-Ball.jpg") no-repeat center;
+    position: relative;
+    background-size: cover;
+}
+
+.text-section .audio-2 .audio-box-2 {
+    background-attachment: fixed;
+    background: url("../images/VegetavsGoku2.jpg") no-repeat center;
+    position: relative;
+    background-size: cover;
+}
+
+.text-section .audio-3 .audio-box-3 {
+    background-attachment: fixed;
+    background: url("../images/VegetavsGoku1.jpg") no-repeat center;
+    position: relative;
+    background-size: cover;
+}
+
+.text-section .audio-4 .audio-box-4 {
+    background-attachment: fixed;
+    background: url("../images/hqdefault.jpg") no-repeat center;
+    position: relative;
+    background-size: cover;
+}
+
+.audio-box-1 {
+    height: 360px;
+    margin-bottom: -6px;
+}
+
+.audio-box-2 {
+    height: 360px;
+    margin-bottom: -6px;
+}
+
+.audio-box-3 {
+    height: 360px;
+    margin-bottom: -6px;
+}
+
+.audio-box-4 {
+    height: 360px;
+    margin-bottom: -6px;
 }

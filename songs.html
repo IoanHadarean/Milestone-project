@@ -16,83 +16,152 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default background-image container-fluid">
-        <div class="container-fluid alert-container hidden-xs">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="site-wide-alert alert alert-warning">
-                        <strong>Want to know more?</strong> Are you a Dragon Ball fan? <a href="http://dragonball.wikia.com/wiki/Main_Page">Check out DragonBallWiki!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="/" class="navbar-brand">
-                    DragonBallSeries
-                </a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+    <div class="container-fluid nav-bg">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">
+                DragonBallSeries
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+        </div>
+
+
+
+
+        <div class="navbar-collapse collapse" id="navbar">
+            <div class="row">
+                <ul id="nav" class="list-inline clearfix">
+                    <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ui-menu-color-home menuitem">
+                        <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                    </li>
+                    <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ui-menu-color-images menuitem">
+                        <a href="images.html" class="hvr-sweep-to-bottom"><i class="fas fa-image" aria-hidden="true"></i><span>Images</span></a>
+                    </li>
+                    <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ui-menu-color-audioclips menuitem">
+                        <a href="songs.html" class="hvr-sweep-to-bottom"><i class="fa fa-music" aria-hidden="true"></i><span>Songs</span></a>
+                    </li>
+                    <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ui-menu-color-videoclip menuitem">
+                        <a href="videoclip.html" class="hvr-sweep-to-bottom"><i class="fas fa-video" aria-hidden="true"></i><span>Spoiler</span></a>
+                    </li>
+                    <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ui-menu-color-contact menuitem">
+                        <a href="contact.html" class="hvr-sweep-to-bottom"><i class="far fa-comment-dots" aria-hidden="true"></i><span>Contact</span></a>
+                    </li>
+                </ul>
             </div>
-            <div class="navbar-collapse collapse" id="navbar">
-                <div class="row">
-                    <ul id="nav" class="list-inline clearfix">
-                        <li class="col-xs-6 col-sm-3 col-lg-2 ui-menu-color-home menuitem">
-                            <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-3 col-lg-2 ui-menu-color-images menuitem">
-                            <a href="images.html" class="hvr-sweep-to-bottom"><i class="fas fa-image" aria-hidden="true"></i><span>Images</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-3 col-lg-2 ui-menu-color-audioclips menuitem">
-                            <a href="songs.html" class="hvr-sweep-to-bottom"><i class="fa fa-music" aria-hidden="true"></i><span>Songs</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-3 col-lg-2 ui-menu-color-videoclip menuitem">
-                            <a href="videoclip.html" class="hvr-sweep-to-bottom"><i class="fas fa-video" aria-hidden="true"></i><span>Spoiler</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-3 col-lg-2 ui-menu-color-contact menuitem">
-                            <a href="contact.html" class="hvr-sweep-to-bottom"><i class="far fa-comment-dots" aria-hidden="true"></i><span>Contact</span></a>
-                        </li>
+            <div class="navbar-header navbar-right">
+                <a href="/login" class="btn btn-default navbar-btn btn-success" data-toggle='modal' data-target='#login-modal'>Login</a>
+            </div>
+        </div>
+    </div>
+
+        <!-- Main body -->
+
+
+        <div class="row">
+            <h3 class="container-fluid page-header flex-wrap header-bg">Songs</h3>
+        </div>
+        <div class="row">
+            <section class="col-lg-8 white-bg image-section">
+                <div class="image-1"></div>
+            </section>
+            <section class="col-lg-4 text-section">
+                <div class="audio-1">
+                    <audio class="audio-box-1" controls style="width: 100%;">
+                        <source src="assets/audio/makafushigi.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </section>
+        </div>
+        <div class="row col-lg-12">
+            <section class="col-lg-8 white-bg image-section">
+                <div class="image-2"></div>
+            </section>
+            <section class="col-lg-4 text-section">
+                <div class="audio-2">
+                    <audio class="audio-box-2" controls style="width: 100%;">
+                        <source src="assets/audio/WeGottaPower.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </section>
+        </div>
+        <div class="row">
+            <section class="col-lg-8 white-bg image-section">
+                <div class="image-3"></div>
+            </section>
+            <section class="col-lg-4 text-section">
+                <div class="audio-3">
+                    <audio class="audio-box-3" controls style="width: 100%;">
+                        <source src="assets/audio/Prologue.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </section>
+        </div>
+        <div class="row col-lg-12">
+            <section class="col-lg-8 white-bg image-section">
+                <div class="image-4"></div>
+            </section>
+            <section class="col-lg-4 text-section">
+                <div class="audio-4">
+                    <audio class="audio-box-4" controls style="width: 100%;">
+                        <source src="assets/audio/DanDanKokoroHikareteku.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </section>
+        </div>
+
+     <!-- Modal Login-->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-label="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel2">Login to DragonBallSeries</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email2">Email address</label>
+                            <input required type="email" class="form-control" id="email2" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password2">Password</label>
+                            <input required type="password" class="form-control" id="password2" placeholder="Password">
+                             <p class="help-block">We'll never share your password with anyone</p>
+                        </div>
+                        <button type="submit" class="btn btn-success">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <!-- Footer -->
+
+        <footer class="container-fluid">
+            <div id="footer-details" class="row">
+                <div class="col-sm-8 col-lg-8">
+                    <h4 class="uppercase general-sub">
+                        <span class="inline-block">
+                        @1986-2018 Akira Toriyama. All rights reserved.
+                    </span>
+                    </h4>
+                </div>
+                <div class="col-sm-4 col-lg-4">
+                    <ul class="list-inline social-links">
+                        <li><a target="_blank" href="https://www.facebook.com/DragonBallZ/"><i class="fab fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
-            <div class="navbar-header navbar-right hidden-xs">
-                <a href="/login" class="btn btn-default navbar-btn btn-success">Login</a>
-                <p class="navbar-text"><i>Join the community</i></p>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Main body -->
-
-    <section class="container-fluid">
-       
-    </section>
-
-
-    <!-- Footer -->
-
-    <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-sm-8 col-lg-8">
-                <h4 class="uppercase general-sub">
-                    <span class="inline-block">
-                        @1986-2018 Akira Toriyama. All rights reserved.
-                    </span>
-                </h4>
-            </div>
-            <div class="col-sm-4 col-lg-4">
-                <ul class="list-inline social-links">
-                    <li><a target="_blank" href="https://www.facebook.com/DragonBallZ/"><i class="fab fa-facebook"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
