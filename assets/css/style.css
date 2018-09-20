@@ -41,6 +41,9 @@ body {
     background: gray;
 }
 
+.header-bg {
+    background-color: white;
+}
 
 
 /*-----------------------------------------------Navigation*/
@@ -314,6 +317,10 @@ body {
     border-color: white;
 }
 
+.btn-secondary {
+    font-size: 16px;
+    width: 100%;
+}
 
 /*-----------------------------------------------Footer*/
 
@@ -382,48 +389,6 @@ footer {
 }
 
 
-/*-----------------------------------------------Media Queries*/
-
-@media (min-width: 568px) {
-    .menuitem span {
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 768px) {
-    .video-box {
-        width: 100%;
-        height: 100%;
-    }
-    .menuitem {
-        width: 14%;
-    }
-    .navbar-header .navbar-white {
-        color: white;
-    }
-}
-
-@media (min-width: 1200px) {
-    .row.col-lg-12 {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    .text-section .audio-1 .audio-box-1 {
-        height: 50vh;
-    }
-
-    .text-section .audio-2 .audio-box-2 {
-        height: 50vh;
-    }
-
-    .text-section .audio-3 .audio-box-3 {
-        height: 50vh;
-    }
-
-    .text-section .audio-4 .audio-box-4 {
-        height: 50vh;
-    }
-}
 
 
 /*-----------------------------------------------Images*/
@@ -437,10 +402,6 @@ footer {
     font-style: italic;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-}
-
-.header-bg {
-    background-color: white;
 }
 
 h3 {
@@ -563,4 +524,108 @@ h3 {
 .audio-box-4 {
     height: 360px;
     margin-bottom: -6px;
+}
+
+/*-----------------------------------------------Contact*/
+
+.contact-heading {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.subcontact-heading {
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+input[type=submit] {
+    text-align: center;
+}
+
+
+.form-control {
+    font-size: 16px;
+}
+
+.row.container-fluid.contact-header.flex-wrap.header-bg {
+    height: 100vh;
+}
+
+.center-form {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 60px;
+}
+
+/*-----------------------------------------------Media Queries*/
+
+@media (min-width: 476px) {
+    .subcontact-heading {
+        margin-bottom: 160px;
+    }
+}
+
+@media (min-width: 568px) {
+    .menuitem span {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 766px) {
+    .subcontact-heading {
+        margin-bottom: 120px;
+    }
+}
+
+@media (min-width: 768px) {
+    .video-box {
+        width: 100%;
+        height: 100%;
+    }
+    .menuitem {
+        width: 14%;
+    }
+    .navbar-header .navbar-white {
+        color: white;
+    }
+}
+
+@media (min-height: 812px) {
+    .center-form {
+        margin-top: 120px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .row.col-lg-12 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .text-section .audio-1 .audio-box-1 {
+        height: 50vh;
+    }
+
+    .text-section .audio-2 .audio-box-2 {
+        height: 50vh;
+    }
+
+    .text-section .audio-3 .audio-box-3 {
+        height: 50vh;
+    }
+
+    .text-section .audio-4 .audio-box-4 {
+        height: 50vh;
+    }
+}
+
+@media (min-height: 1366px) {
+    .row.container-fluid.contact-header.flex-wrap.header-bg {
+    height: 70vh;
+    }
 }

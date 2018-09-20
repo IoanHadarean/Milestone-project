@@ -16,61 +16,94 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default background-image container-fluid">
-        <div class="container-fluid alert-container hidden-xs">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="site-wide-alert alert alert-warning">
-                        <strong>Want to know more?</strong> Are you a Dragon Ball fan? <a href="http://dragonball.wikia.com/wiki/Main_Page">Check out DragonBallWiki!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="/" class="navbar-brand">
-                    DragonBallSeries
-                </a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+    <div class="container-fluid nav-bg">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">
+                DragonBallSeries
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+        </div>
+
+
+
+
+        <div class="navbar-collapse collapse" id="navbar">
+            <div class="row">
+                <ul id="nav" class="list-inline clearfix">
+                    <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ui-menu-color-home menuitem">
+                        <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                    </li>
+                    <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ui-menu-color-images menuitem">
+                        <a href="images.html" class="hvr-sweep-to-bottom"><i class="fas fa-image" aria-hidden="true"></i><span>Images</span></a>
+                    </li>
+                    <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ui-menu-color-audioclips menuitem">
+                        <a href="songs.html" class="hvr-sweep-to-bottom"><i class="fa fa-music" aria-hidden="true"></i><span>Songs</span></a>
+                    </li>
+                    <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ui-menu-color-videoclip menuitem">
+                        <a href="videoclip.html" class="hvr-sweep-to-bottom"><i class="fas fa-video" aria-hidden="true"></i><span>Spoiler</span></a>
+                    </li>
+                    <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ui-menu-color-contact menuitem">
+                        <a href="contact.html" class="hvr-sweep-to-bottom"><i class="far fa-comment-dots" aria-hidden="true"></i><span>Contact</span></a>
+                    </li>
+                </ul>
             </div>
-            <div class="navbar-collapse collapse" id="navbar">
-                <div class="row">
-                    <ul id="nav" class="list-inline clearfix">
-                        <li class="col-xs-6 col-sm-3 col-lg-2 ui-menu-color-home menuitem">
-                            <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-3 col-lg-2 ui-menu-color-images menuitem">
-                            <a href="images.html" class="hvr-sweep-to-bottom"><i class="fas fa-image" aria-hidden="true"></i><span>Images</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-3 col-lg-2 ui-menu-color-audioclips menuitem">
-                            <a href="songs.html" class="hvr-sweep-to-bottom"><i class="fa fa-music" aria-hidden="true"></i><span>Songs</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-3 col-lg-2 ui-menu-color-videoclip menuitem">
-                            <a href="videoclip.html" class="hvr-sweep-to-bottom"><i class="fas fa-video" aria-hidden="true"></i><span>Spoiler</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-3 col-lg-2 ui-menu-color-contact menuitem">
-                            <a href="contact.html" class="hvr-sweep-to-bottom"><i class="far fa-comment-dots" aria-hidden="true"></i><span>Contact</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="navbar-header navbar-right hidden-xs">
-                <a href="/login" class="btn btn-default navbar-btn btn-success">Login</a>
-                <p class="navbar-text"><i>Join the community</i></p>
+            <div class="navbar-header navbar-right">
+                <a href="/login" class="btn btn-default navbar-btn btn-success" data-toggle='modal' data-target='#login-modal'>Login</a>
             </div>
         </div>
-    </nav>
+    </div>
 
     <!-- Main body -->
 
-    <section class="container-fluid">
+    <div class="container-fluid callout-container">
+        <div class="row contact-header flex-wrap">
+            <div>
+                <h3 class="contact-heading uppercase text-center">Do you want to contribute to this website?</h3>
+                <br>
+                <h5 class="uppercase text-center subcontact-heading hidden-xs">Contact me so we can develop our idea together</h5>
+            </div>
+            <div class="center-form">
+                <form>
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
-    </section>
+    <!-- Modal Login-->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-label="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel2">Login to DragonBallSeries</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email2">Email address</label>
+                            <input required type="email" class="form-control" id="email2" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password2">Password</label>
+                            <input required type="password" class="form-control" id="password2" placeholder="Password">
+                             <p class="help-block">We'll never share your password with anyone</p>
+                        </div>
+                        <button type="submit" class="btn btn-success">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Footer -->
@@ -93,6 +126,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
