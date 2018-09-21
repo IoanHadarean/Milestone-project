@@ -397,7 +397,7 @@ footer {
     text-align: center;
     padding: 0px;
     margin: 0px;
-    height: 40px;
+    height: 80px;
     border: 0;
     font-style: italic;
     font-family: "Roboto", sans-serif;
@@ -414,19 +414,6 @@ h3 {
     justify-content: center;
 }
 
-.image-1 {
-    height: 50vh;
-    background: url("../images/nap.jpg") no-repeat bottom fixed;
-    background-size: cover;
-    position: relative;
-    background-attachment: fixed;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
 .image-section {
     padding: 0px;
 }
@@ -435,21 +422,25 @@ h3 {
     padding-left: 0px;
     padding-right: 0px;
     height: 360px;
+    
 }
 
 .section-header {
-    margin-top: 100px;
+    margin-top: 180px;
+        
 }
 
-.text-section>p {
-    text-align: center;
-    margin-top: 10%;
-    font-size: 18px;
+.image-1 {
+    height: 50vh;
+    background: url("../images/nap.jpg") no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
 }
 
 .image-2 {
     height: 50vh;
-    background: url("../images/Tofpower.jpeg") no-repeat center;
+    background: url("../images/Gogeta.jpg") no-repeat center fixed;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
@@ -457,7 +448,7 @@ h3 {
 
 .image-3 {
     height: 50vh;
-    background: url("../images/Gogeta.jpg") no-repeat center;
+    background: url("../images/dbgt.jpg") no-repeat center fixed;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
@@ -465,7 +456,7 @@ h3 {
 
 .image-4 {
     height: 50vh;
-    background: url("../images/dbgt.jpg") no-repeat center;
+    background: url("../images/Tofpower.jpeg") no-repeat center fixed;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
@@ -553,7 +544,7 @@ input[type=submit] {
     font-size: 16px;
 }
 
-.row.container-fluid.contact-header.flex-wrap.header-bg {
+.container-fluid.contact-header.flex-wrap.header-bg {
     height: 100vh;
 }
 
