@@ -34,20 +34,14 @@
 
 
 ## Testing
-    <ul>
-    Prototype code was written and tested using Cloud9.
-    All code used on the site has been tested using The W3 CSS Validation Service(https://jigsaw.w3.org/css-validator/) 
+    *Prototype code was written and tested using Cloud9.
+    *All code used on the site has been tested using The W3 CSS Validation Service(https://jigsaw.w3.org/css-validator/) 
     and The W3 Markup Validation Service(https://validator.w3.org/).
-    Site viewed and tested in the following browsers:
-        <ul>
-        Google Chrome
-        Mozilla Firefox
-        Opera
-        </ul>
-    <ul>
-
-
-
+    *Site viewed and tested in the following browsers:
+        *Google Chrome
+        *Mozilla Firefox
+        *Opera
+        *Internet Explorer
 ## Contributing
 
 
