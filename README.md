@@ -13,7 +13,6 @@ in the series. The website also embeds audioclips with the best songs used throu
 but not least, the website allows other contributors to participate to the improvement of the website 
 by adding new content or 
 
-
 ### How does it work?
 
 The website uses HTML and HTML5 markup language to put the structure of the website in place. It also 
@@ -21,7 +20,7 @@ uses CSS and Bootstrap to style the website. Javascript and jQuery have been use
 login and signup modal buttons. These technologies have also helped to the functionality of the 
 contact form, as well as login and signup forms. The website can be viewed [here](https://milestone-project-ioan1997.c9users.io/index.html).
 
-## User Stories
+### User Stories
 1. User is able to go to the main page 
 2. User is able to navigate between different pages
 3. User is able to play a spoiler video from the spoiler page
@@ -71,8 +70,6 @@ None
 
 ## Tech Used
 
-### Some Of The Tech Used Includes:
-
 1. **HTML**, **CSS** and **Javascript**
     <br>Languages that were used to create the Dragon Ball Series website.
 2. **Bootstrap v3.3.7**(https://getbootstrap.com/docs/3.3/getting-started/#download)
@@ -82,8 +79,12 @@ None
 4. **Font Awesome v4.7.0**(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
     <br>**Font Awesome v5.3.1**(https://use.fontawesome.com/releases/v5.3.1/css/all.css)
     <br>Font and icon toolkits based on CSS and LESS that were used to style the website.
-## Testing 
-1. Prototype code was written and tested using Cloud9.
+5. **Google Fonts**(https://fonts.google.com/)
+    <br>**Google Fonts** was used to style the text on the website(Roboto and Exo font-family).
+
+## Testing
+
+1. Prototype code was written and tested using Cloud9 and Chrome Developer Tools.
 2. All code used on the site has been tested using [The W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/) 
             and [The W3 Markup Validation Service](https://validator.w3.org/).
 3. Site viewed and tested in the following browsers:
@@ -92,13 +93,20 @@ None
 <br>    iii Opera
 <br>    iv Internet Explorer
 
-## Contributing
+## Deployment
 
+The coding for the project was done in Cloud9. The code has been committed and pushed to https://github.com/IoanHadarean/Milestone-project.
 
 ### Getting the code up and running
-    GitHub
+
+1. Copy the GitHub clone link.
+2. Open a new terminal in Cloud9 and type git clone https://github.com/IoanHadarean/Milestone-project.git
+3. Open the index.html file and click Run.
 
 ## Credits
+
+I would like to thank all code institute students for helping me along this project. Special thanks go to Eventyret, Jo Wings and my mentor Moosa Hassan.
+I would also like to thank my girlfriend for supporting me and for giving me advice in terms of design.
 
 ### Media
 
