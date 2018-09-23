@@ -5,7 +5,7 @@
 This is a website designed for both fans of Dragon Ball Series or people who would like to know more
 about Dragon Ball Series.
 
-### What is this website for
+### What is this website for?
 
 Dragon Ball Series is a site to attract anime fans from all over the world and especially Dragon Ball
 fans. It reveals images about Dragon Ball Series, as well as a little spoiler to make people interested
@@ -14,7 +14,7 @@ but not least, the website allows other contributors to participate to the impro
 by adding new content or 
 
 
-### How does it work
+### How does it work?
 
 The website uses HTML and HTML5 markup language to put the structure of the website in place. It also 
 uses CSS and Bootstrap to style the website. Javascript and jQuery have been used to construct the
@@ -27,10 +27,6 @@ contact form, as well as login and signup forms. The website can be viewed [here
 3. User is able to play a spoiler video from the spoiler page
 4. User is able to listen to audioclips and view images
 5. User is able to contact the creator of the website
-
-## Features
-
-
 
 ### Existing Features
 
@@ -68,6 +64,10 @@ contact form, as well as login and signup forms. The website can be viewed [here
 ### Features Left To Implement
 
 None
+
+### Wireframe
+
+<a href="assets/wireframe/wireframe.png"><img src="https://preview.ibb.co/epMQu9/wireframe.png" alt="wireframe" border="0"></a>
 
 ## Tech Used
 
