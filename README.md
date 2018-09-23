@@ -5,15 +5,15 @@
 ### Overview
 
 This is a website designed for both fans of Dragon Ball Series or people who would like to know more
-about Dragon Ball Series.
+about Dragon Ball.
 
 ### What is this website for?
 
 Dragon Ball Series is a site to attract anime fans from all over the world and especially Dragon Ball
 fans. It reveals images about Dragon Ball Series, as well as a little spoiler to make people interested
 in the series. The website also embeds audioclips with the best songs used throughout the series. Last
-but not least, the website allows other contributors to participate to the improvement of the website 
-by adding new content or 
+but not least, the website allows other contributors to participate to the development of the website 
+by adding new content or improving the current one.
 
 ### How does it work?
 
@@ -27,7 +27,7 @@ contact form, as well as login and signup forms. The website can be viewed [here
 2. User is able to navigate between different pages
 3. User is able to play a spoiler video from the spoiler page
 4. User is able to listen to audioclips and view images
-5. User is able to contact the creator of the website
+5. User is able to submit a contact form
 
 ### Existing Features
 
@@ -37,6 +37,7 @@ contact form, as well as login and signup forms. The website can be viewed [here
 <br>`Login and signup buttons`
 <br>`Forms for signing up and logging in to the website`
 <br>`Functional social media links`
+<br>`Responsive web design`
 <br>**Image page with plenty of pictures**
 <br>`Grid system` 
 <br>`Login button`
@@ -44,6 +45,7 @@ contact form, as well as login and signup forms. The website can be viewed [here
 <br>`Easy-to-use navigation system`
 <br>`Structured information with external links`
 <br>`Header for every section`
+<br>`Responsive web design`
 <br>**Songs page with the most catchy audioclips from Dragon Ball**
 <br>`Grid system`
 <br>`Login button`
@@ -51,20 +53,23 @@ contact form, as well as login and signup forms. The website can be viewed [here
 <br>`Easy-to-use navigation system`
 <br>`Header for every section`
 <br>`Best Dragon Ball audioclips from the entire series`
+<br>`Responsive web design`
 <br>**Videoclip page with a little spoiler**
 <br>`Jumbotron feature with bordered video-box`
 <br>`Login button`
 <br>`Functional social media links`
 <br>`Easy-to-use navigation system`
+<br>`Responsive web design`
 <br>**Contact page**
 <br>`Contact form with submit button`
 <br>`Login button`
 <br>`Functional social media links`
 <br>`Easy-to-use navigation system`
+<br>`Responsive web design`
 
 ### Features Left To Implement
 
-None
+SVG can be added as a feature because -webkit-text-stroke-width and -webkit-text-stroke-color don't work in Internet Explorer.
 
 ### Wireframe
 
@@ -102,7 +107,7 @@ The coding for the project was done in Cloud9. The code has been committed and p
 ### Getting the code up and running
 
 1. Copy the GitHub clone link.
-2. Open a new terminal in Cloud9 and type git clone https://github.com/IoanHadarean/Milestone-project.git
+2. Open a new terminal in Cloud9 and type **git clone https://github.com/IoanHadarean/Milestone-project.git**
 3. Open the index.html file and click Run.
 
 ## Credits
