@@ -427,7 +427,6 @@ h3 {
 
 .section-header {
     margin-top: 180px;
-        
 }
 
 .image-1 {
@@ -469,28 +468,34 @@ h3 {
 
 /*-----------------------------------------------Songs*/
 
-.text-section .audio-1 .audio-box-1 {
+.audio-section {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 360px;
+}
+
+.audio-1 .audio-box-1 {
     background-attachment: fixed;
     background: url("../images/Dragon-Ball.jpg") no-repeat center;
     position: relative;
     background-size: cover;
 }
 
-.text-section .audio-2 .audio-box-2 {
+.audio-2 .audio-box-2 {
     background-attachment: fixed;
     background: url("../images/VegetavsGoku2.jpg") no-repeat center;
     position: relative;
     background-size: cover;
 }
 
-.text-section .audio-3 .audio-box-3 {
+.audio-3 .audio-box-3 {
     background-attachment: fixed;
     background: url("../images/VegetavsGoku1.jpg") no-repeat center;
     position: relative;
     background-size: cover;
 }
 
-.text-section .audio-4 .audio-box-4 {
+.audio-4 .audio-box-4 {
     background-attachment: fixed;
     background: url("../images/hqdefault.jpg") no-repeat center;
     position: relative;
@@ -515,6 +520,10 @@ h3 {
 .audio-box-4 {
     height: 360px;
     margin-bottom: -6px;
+}
+
+.row.col-lg-4 {
+    padding: 0px;
 }
 
 /*-----------------------------------------------Contact*/
@@ -599,24 +608,24 @@ input[type=submit] {
         display: flex;
         flex-direction: row-reverse;
     }
-    .text-section .audio-1 .audio-box-1 {
+    .audio-1 .audio-box-1 {
         height: 50vh;
     }
 
-    .text-section .audio-2 .audio-box-2 {
+    .audio-2 .audio-box-2 {
+        height: 50vh;
+
+    }
+
+    .audio-3 .audio-box-3 {
         height: 50vh;
     }
 
-    .text-section .audio-3 .audio-box-3 {
+    .audio-4 .audio-box-4 {
         height: 50vh;
     }
-
-    .text-section .audio-4 .audio-box-4 {
-        height: 50vh;
-    }
-    .text-section {
-        height: 360px;
-        margin-top: -20px;
+    .section-header {
+        margin-top: 330px;
     }
 }
 
