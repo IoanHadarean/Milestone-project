@@ -11,16 +11,17 @@ about Dragon Ball.
 
 Dragon Ball Series is a site to attract anime fans from all over the world and especially Dragon Ball
 fans. It reveals images about Dragon Ball Series, as well as a little spoiler to make people interested
-in the series. The website also embeds audioclips with the best songs used throughout the series. Last
+in the series. The website embeds audioclips with the best songs used throughout the series. Last
 but not least, the website allows other contributors to participate to the development of the website 
-by adding new content or improving the current one.
+by adding new content or improving the current one. It also allows users to send emails for project requests
+via the contact form.
 
 ### How does it work?
 
 The website uses HTML and HTML5 markup language to put the structure of the website in place. It also 
-uses CSS and Bootstrap to style the website. Javascript and jQuery have been used to construct the
-login and signup modal buttons. These technologies have also helped to the functionality of the 
-contact form, as well as login and signup forms. The website can be viewed [here](https://milestone-project-ioan1997.c9users.io/index.html).
+uses CSS and Bootstrap to style the website. These technologies have also been used to construct the
+login and signup modal buttons. Javascript and jQuery have helped to the functionality of the 
+contact form, as well as login and signup forms. The website can be viewed [here](https://ioanhadarean.github.io/User-Centric-Front-End-Milestone-Project/).
 
 ### User Stories
 1. User is able to go to the main page 
@@ -28,6 +29,7 @@ contact form, as well as login and signup forms. The website can be viewed [here
 3. User is able to play a spoiler video from the spoiler page
 4. User is able to listen to audioclips and view images
 5. User is able to submit a contact form
+6. User is able to send emails via the contact form
 
 ### Existing Features
 
@@ -66,6 +68,7 @@ contact form, as well as login and signup forms. The website can be viewed [here
 <br>`Functional social media links`
 <br>`Easy-to-use navigation system`
 <br>`Responsive web design`
+<br>`Sending emails function`
 
 ### Features Left To Implement
 
@@ -88,6 +91,11 @@ SVG can be added as a feature because -webkit-text-stroke-width and -webkit-text
     <br>Font and icon toolkits based on CSS and LESS that were used to style the website.
 5. **Google Fonts**(https://fonts.google.com/)
     <br>**Google Fonts** was used to style the text on the website(Roboto and Exo font-family).
+6.**Javascript**(https://www.javascript.com/)
+    <br>**Javascript** was used to send emails for a project request using the contact form.
+7.**EmailJS**(http://www.emailjs.com/)
+    <br>**EmailJS** is an application that was used to add an email template for sending emails via the contact form.
+    <br>EmailJS is an aplication that allows users to send emails directly from Javascript.
 
 ## Testing
 
@@ -99,10 +107,12 @@ SVG can be added as a feature because -webkit-text-stroke-width and -webkit-text
 <br>    ii Mozilla Firefox
 <br>    iii Opera
 <br>    iv Internet Explorer
+4. The sending emails function was tested using Gmail and EmailJS.
 
 ## Deployment
 
-The coding for the project was done in Cloud9. The code has been committed and pushed to https://github.com/IoanHadarean/Milestone-project.
+The coding for the project was done in Cloud9. The code has been committed and pushed to https://github.com/IoanHadarean/User-Centric-Front-End-Milestone-Project. 
+The website has been published using GitHub Pages at the following address: https://ioanhadarean.github.io/User-Centric-Front-End-Milestone-Project/
 
 ### Getting the code up and running
 
