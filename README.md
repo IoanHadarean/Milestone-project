@@ -76,7 +76,7 @@ SVG can be added as a feature because -webkit-text-stroke-width and -webkit-text
 
 ### Wireframe
 
-<a href="assets/wireframe/wireframe.png"><img src="https://preview.ibb.co/epMQu9/wireframe.png" alt="wireframe" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://image.ibb.co/h8dRfA/Bullet-Travel.png" alt="Bullet-Travel" border="0"></a>
 
 ## Tech Used
 
